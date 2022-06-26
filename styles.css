@@ -1,0 +1,172 @@
+.price-cards__container {
+  display: flex;
+}
+
+.price-card {
+  margin: 115px 18px 115px 18px;
+  width: 380px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  background: #334247;
+}
+
+.price-card:first-child {
+  margin-left: 132px;
+}
+
+.price-card__title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 33px 140px;
+}
+
+.price-card__title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.price-card__undertitle {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30.48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5bb189;
+  height: 105px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.price-blue {
+  background-color: #3a6ba5;
+}
+
+.price-orange {
+  background-color: #ec632a;
+}
+
+.price-card__description {
+  display: flex;
+  width: 327.49px;
+  height: 36px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 40px 26px;
+}
+
+.price-card__advantages {
+  display: flex;
+}
+
+.price-card__advantages-list {
+  list-style: none;
+}
+
+.advantages-list__item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+  width: 380px;
+  height: 50px;
+  margin: 0px;
+  background: #334247;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  color: #ffffff;
+  margin-left: -40px;
+}
+
+.advantages-list__item-black {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+  width: 380px;
+  height: 50px;
+  margin: 0px;
+  background: #2a3438;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  color: #ffffff;
+  margin-left: -40px;
+}
+
+.price-card__order-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 154px;
+  height: 40px;
+  background: #5bb189;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+}
+
+.blue-button {
+  background-color: #3a6ba5;
+}
+
+.orange-button {
+  background-color: #ec632a;
+}
+
+.list-item__icon {
+  height: 13px;
+  width: 15px;
+  margin-left: 22px;
+  margin-right: 22px;
+  display: inline-block;
+}
+
+.list-item__icon-green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+.list-item__icon-blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.list-item__icon-orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: #141b1c;
+}
+
+.page {
+  background-color: #141b1c;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,7 @@
 
 .price-card {
   position: relative;
-  margin: 115px 18px 115px 18px;
+  margin: 115px 9px 115px 9px;
   min-width: 380px;
   height: 770px;
   display: flex;
@@ -19,7 +19,7 @@
 }
 
 .price-card:first-child {
-  margin-left: 132px;
+  margin-left: 132px 9px;
 }
 
 .price-card__title-wrapper {

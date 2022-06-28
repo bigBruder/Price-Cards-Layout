@@ -19,7 +19,7 @@
 }
 
 .price-card:first-child {
-  margin-left: 132px 9px;
+  margin-left: 115px 9px 132px 115px;
 }
 
 .price-card__title-wrapper {
@@ -34,15 +34,15 @@
   color: #ffffff;
   font-weight: 700;
   font-size: 35px;
-  line-height: 42px;
+  line-height: 43px;
   text-align: center;
 }
 
 .price-card__undertitle {
-  font-family: Roboto;
+  font-family: Montserrat;
   font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 24px;
   text-align: center;
   color: #ffffff;
 }
@@ -147,21 +147,6 @@
   background-color: #ec632a;
 }
 
-.popular-sticker {
-  position: absolute;
-  width: 147px;
-  height: 25px;
-  background-color: #dc3f45;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 25px;
-  text-align: center;
-  top: 30px;
-  right: -30px;
-  transform: rotate(45deg);
-}
-
 .list-item__icon {
   height: 13px;
   width: 15px;
@@ -179,4 +164,19 @@
 
 .list-item__icon-orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
+.popular-sticker {
+  position: absolute;
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  top: 30px;
+  right: -30px;
+  transform: rotate(45deg);
 }

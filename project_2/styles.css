@@ -19,7 +19,7 @@
 }
 
 .price-card:first-child {
-  margin: 115px 9px 132px 115px;
+  margin-left: 115px 9px 132px 115px;
 }
 
 .price-card__title-wrapper {
@@ -86,6 +86,7 @@
 }
 
 .price-card__options-list {
+  margin-top: 0px;
   list-style: none;
 }
 

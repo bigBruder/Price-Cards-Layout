@@ -1,11 +1,10 @@
 .price-cards__container {
   display: flex;
-  margin: 115px 132px;
 }
 
 .price-card {
   position: relative;
-  margin-right: 9px;
+  margin: 115px 9px 115px 9px;
   min-width: 380px;
   height: 770px;
   display: flex;
@@ -19,8 +18,8 @@
   overflow: hidden;
 }
 
-.price-card:last-child {
-  margin-right: 0px;
+.price-card:first-child {
+  margin-left: 115px 9px 132px 115px;
 }
 
 .price-card__title-wrapper {

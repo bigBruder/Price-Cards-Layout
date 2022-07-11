@@ -1,5 +1,6 @@
 .price-cards__container {
   display: flex;
+  justify-content: center;
 }
 
 .price-card {

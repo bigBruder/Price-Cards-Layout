@@ -1,12 +1,13 @@
 .price-cards__container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 100vh;
 }
 
 .price-card {
   position: relative;
-  margin: 115px 9px 115px 9px;
+  margin-right: 9px;
+  margin-left: 9px;
   min-width: 380px;
   height: 770px;
   display: flex;
@@ -21,7 +22,11 @@
 }
 
 .price-card:first-child {
-  margin-left: 115px 9px 132px 115px;
+  margin-left: 0;
+  margin-right: 9px;
+}
+.price-card:last-child {
+  margin-right: 0;
 }
 
 .price-card__title-wrapper {

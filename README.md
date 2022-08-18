@@ -2,7 +2,7 @@ Price Cards Layot
 
 https://romontherock.github.io/Price-Cards-Layout/
 
-Layout supports 1440px version
+Layout supports 1440px versions
 
 The tech stack is:
 HTML5

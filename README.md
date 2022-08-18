@@ -1,6 +1,6 @@
 # Price Cards Layout
 
-### (https://romontherock.github.io/Price-Cards-Layout/)
+### https://romontherock.github.io/Price-Cards-Layout/
 
 Layout supports 1440px version
 

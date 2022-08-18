@@ -2,7 +2,7 @@
 
 ### https://romontherock.github.io/Price-Cards-Layout/
 
-Layout supports 1440px version
+Layout supports only 1440px 
 
 ### The tech stack is:
 

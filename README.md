@@ -2,9 +2,6 @@
 
 ### https://romontherock.github.io/Price-Cards-Layout/
 
-<<<<<<< HEAD
-Layout supports 1440px version
-=======
 Layout supports only 1440px
 
 ### The tech stack is:
@@ -18,4 +15,3 @@ Layout supports only 1440px
 ### Author
 
 - Roman Panas
-  > > > > > > > beb060ceb2f5bff411e60227a875895276fec974

@@ -20,82 +20,88 @@
   background: #334247;
   border: none;
   overflow: hidden;
-}
 
-.price-card:first-child {
-  margin-left: 0;
-  margin-right: 9px;
-}
-.price-card:last-child {
-  margin-right: 0;
-}
+  &:first-child {
+    margin-left: 0;
+    margin-right: 9px;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 
-.price-card__title-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 33px 140px;
-}
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 33px 140px;
+    &-name {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+    }
+    &-website {
+      font-family: Montserrat;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
 
-.price-card__title {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 43px;
-  text-align: center;
-}
+  &__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5bb189;
+    height: 105px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    font-family: 'Montserrat';
+  }
 
-.price-card__undertitle {
-  font-family: Montserrat;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #ffffff;
-}
+  &__description {
+    display: flex;
+    width: 327px;
+    height: 36px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px 26px;
+  }
 
-.price-card__price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5bb189;
-  height: 105px;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-  text-align: center;
-  font-family: "Montserrat";
-}
+  &__advantages {
+    display: flex;
+  }
 
-.price-blue {
-  background-color: #3a6ba5;
-}
+  &__options-list {
+    margin-top: 0px;
+    list-style: none;
+  }
 
-.price-orange {
-  background-color: #ec632a;
-}
-
-.price-card__description {
-  display: flex;
-  width: 327px;
-  height: 36px;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #ffffff;
-  margin: 40px 26px;
-}
-
-.price-card__advantages {
-  display: flex;
-}
-
-.price-card__options-list {
-  margin-top: 0px;
-  list-style: none;
+  &__order-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 40px;
+    background: #5bb189;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+  }
 }
 
 .advantages-list__item {
@@ -110,50 +116,11 @@
   mix-blend-mode: normal;
   font-size: 15px;
   line-height: 18px;
-  opacity: 0.5;
   color: #ffffff;
   margin-left: -40px;
-}
-
-.advantages-list__item-black {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  list-style-type: none;
-  width: 380px;
-  height: 50px;
-  margin: 0px;
-  background: #2a3438;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-  font-size: 15px;
-  line-height: 18px;
-  color: #ffffff;
-  margin-left: -40px;
-}
-
-.price-card__order-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 154px;
-  height: 40px;
-  background: #5bb189;
-  border-radius: 20px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #ffffff;
-  margin: auto;
-}
-
-.blue-button {
-  background-color: #3a6ba5;
-}
-
-.orange-button {
-  background-color: #ec632a;
+  &:nth-child(even) {
+    background-color: #2a3438;
+  }
 }
 
 .list-item__icon {
@@ -162,17 +129,34 @@
   margin-left: 22px;
   margin-right: 22px;
   display: inline-block;
-}
-.list-item__icon-green {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+
+  &-green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+
+  &-blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+
+  &-orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
 }
 
-.list-item__icon-blue {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+.price-blue {
+  background-color: #3a6ba5;
 }
 
-.list-item__icon-orange {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+.price-orange {
+  background-color: #ec632a;
+}
+
+.blue-button {
+  background-color: #3a6ba5;
+}
+
+.orange-button {
+  background-color: #ec632a;
 }
 
 .popular-sticker {

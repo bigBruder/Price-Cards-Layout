@@ -89,6 +89,7 @@
   height: 40px;
   background: #5bb189;
   border-radius: 20px;
+  border: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -105,14 +106,14 @@
   width: 380px;
   height: 50px;
   margin: 0px;
-  background: #334247;
+  background: rgba(42, 52, 56, 0.5);
   mix-blend-mode: normal;
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
   margin-left: -40px;
 }
-.advantages-list__item:nth-child(even) {
+.advantages-list__item:nth-child(odd) {
   background-color: #2a3438;
 }
 

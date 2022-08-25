@@ -148,8 +148,8 @@
   width: 380px;
   height: 50px;
   margin: 0px;
-  background: rgba(42, 52, 56, 0.5);
-  background-color: #1f3d63;
+  background: #334247;
+
   mix-blend-mode: normal;
   font-size: 15px;
   line-height: 18px;
@@ -163,8 +163,7 @@
 .list-item__icon {
   height: 13px;
   width: 15px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin: 18px 22px 19px;
   display: inline-block;
 
   &_green {

@@ -17,7 +17,7 @@
   border: 0.5px solid #f7f7f7;
   flex-direction: column;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  background: #334247;
+  background-color: #334247;
   border: none;
   overflow: hidden;
 
@@ -36,19 +36,23 @@
     align-items: center;
     margin: 33px 140px;
     &-name {
-      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: $color-text;
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
       text-align: center;
     }
     &-website {
+      margin-top: 0;
+      margin-bottom: 0;
       font-family: Montserrat;
       font-weight: 300;
       font-size: 20px;
       line-height: 24px;
       text-align: center;
-      color: #ffffff;
+      color: $color-text;
     }
   }
 
@@ -56,14 +60,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5bb189;
     height: 105px;
-    color: #ffffff;
+    color: $color-text;
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
     text-align: center;
     font-family: 'Montserrat';
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
   }
 
   &__description {
@@ -74,7 +86,7 @@
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #ffffff;
+    color: $color-text;
     margin: 40px 26px;
   }
 
@@ -93,15 +105,38 @@
     justify-content: center;
     width: 154px;
     height: 40px;
-    background: #5bb189;
     border-radius: 20px;
     border: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #ffffff;
+    color: $color-text;
     margin: auto;
+    &_green {
+      background: $color-green;
+    }
+    &_blue {
+      background: $color-blue;
+    }
+    &_orange {
+      background: $color-orange;
+    }
+  }
+
+  &__popular-sticker {
+    position: absolute;
+    width: 147px;
+    height: 25px;
+    background-color: #dc3f45;
+    color: $color-text;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    top: 30px;
+    right: -30px;
+    transform: rotate(45deg);
   }
 }
 
@@ -114,10 +149,11 @@
   height: 50px;
   margin: 0px;
   background: rgba(42, 52, 56, 0.5);
+  background-color: #1f3d63;
   mix-blend-mode: normal;
   font-size: 15px;
   line-height: 18px;
-  color: #ffffff;
+  color: $color-text;
   margin-left: -40px;
   &:nth-child(odd) {
     background-color: #2a3438;
@@ -131,46 +167,15 @@
   margin-right: 22px;
   display: inline-block;
 
-  &-green {
+  &_green {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   }
 
-  &-blue {
+  &_blue {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
   }
 
-  &-orange {
+  &_orange {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
   }
-}
-
-.price-blue {
-  background-color: #3a6ba5;
-}
-
-.price-orange {
-  background-color: #ec632a;
-}
-
-.blue-button {
-  background-color: #3a6ba5;
-}
-
-.orange-button {
-  background-color: #ec632a;
-}
-
-.popular-sticker {
-  position: absolute;
-  width: 147px;
-  height: 25px;
-  background-color: #dc3f45;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 25px;
-  text-align: center;
-  top: 30px;
-  right: -30px;
-  transform: rotate(45deg);
 }

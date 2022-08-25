@@ -17,7 +17,7 @@
   border: 0.5px solid #f7f7f7;
   flex-direction: column;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  background: #334247;
+  background-color: #334247;
   border: none;
   overflow: hidden;
 }
@@ -36,6 +36,8 @@
   margin: 33px 140px;
 }
 .price-card__title-name {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
   font-weight: 700;
   font-size: 35px;
@@ -43,6 +45,8 @@
   text-align: center;
 }
 .price-card__title-website {
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: Montserrat;
   font-weight: 300;
   font-size: 20px;
@@ -54,7 +58,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5bb189;
   height: 105px;
   color: #ffffff;
   font-weight: 700;
@@ -62,6 +65,15 @@
   line-height: 67px;
   text-align: center;
   font-family: "Montserrat";
+}
+.price-card__price_green {
+  background-color: #5bb189;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
 }
 .price-card__description {
   display: flex;
@@ -87,7 +99,6 @@
   justify-content: center;
   width: 154px;
   height: 40px;
-  background: #5bb189;
   border-radius: 20px;
   border: none;
   font-weight: 400;
@@ -96,6 +107,29 @@
   text-align: center;
   color: #ffffff;
   margin: auto;
+}
+.price-card__order-btn_green {
+  background: #5bb189;
+}
+.price-card__order-btn_blue {
+  background: #3a6ba5;
+}
+.price-card__order-btn_orange {
+  background: #ec632a;
+}
+.price-card__popular-sticker {
+  position: absolute;
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  top: 30px;
+  right: -30px;
+  transform: rotate(45deg);
 }
 
 .advantages-list__item {
@@ -107,6 +141,7 @@
   height: 50px;
   margin: 0px;
   background: rgba(42, 52, 56, 0.5);
+  background-color: #1f3d63;
   mix-blend-mode: normal;
   font-size: 15px;
   line-height: 18px;
@@ -124,45 +159,14 @@
   margin-right: 22px;
   display: inline-block;
 }
-.list-item__icon-green {
+.list-item__icon_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.list-item__icon-blue {
+.list-item__icon_blue {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.list-item__icon-orange {
+.list-item__icon_orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-}
-
-.price-blue {
-  background-color: #3a6ba5;
-}
-
-.price-orange {
-  background-color: #ec632a;
-}
-
-.blue-button {
-  background-color: #3a6ba5;
-}
-
-.orange-button {
-  background-color: #ec632a;
-}
-
-.popular-sticker {
-  position: absolute;
-  width: 147px;
-  height: 25px;
-  background-color: #dc3f45;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 25px;
-  text-align: center;
-  top: 30px;
-  right: -30px;
-  transform: rotate(45deg);
 }
 
 * {
@@ -170,7 +174,7 @@
 }
 
 body {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   background-color: #141b1c;
 }
 
